@@ -1,0 +1,268 @@
+
+* {
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-color:white;
+}
+
+
+.navbar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    font-family: "Roboto Slab", serif;
+
+
+}
+
+
+.nav-container {
+    width: 100%;
+    margin: 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+   
+
+}
+
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.navbar ul li a {
+    color: #1c5386;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.navbar ul li a:hover {
+    color: #e35a15;
+
+}
+
+.navbar img {
+    width: 100px;
+    height: 30px;
+    left: 10px;
+    display: flex;
+   
+}
+
+
+.backgroundimg{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-repeat: no-repeat;
+    background-image: url(../Rabi/assets/seyahat.webp);
+    background-size: cover;
+}
+
+.alt-img p{
+    margin:0 50px 0px 250px ;
+    color: #1c5386;
+    font-family: "Roboto", sans-serif;
+    margin-top: 30px;
+    display: flex;
+    
+
+}
+.alt-img .text{
+    color: white;
+    padding-top: 250px;
+    padding-left:250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.alt-img .text-style{
+    color: #e35a15;
+    display: flex;
+    
+}
+.alt-img .primaryBtn{
+    margin-left:250px;
+    margin-top: 30px;
+
+
+}
+.primaryBtn {
+    background-color: #1c5386;
+    color: #fcfcfc;
+    width: 128px;
+    height: 42px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid #1c5386;
+}
+
+.about{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.storyimg{
+
+    width: 45%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding-left: 90px;
+
+}
+
+.storytext{
+
+    width: 55%;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    gap: 20px;
+
+    
+}
+
+.storytext h2{
+    text-decoration: underline;
+    color: #e35a15;
+    font-size: 30px;
+    
+}
+.storytext p{
+    width: 65%;
+    font-weight: 400;
+    font-family:"Roboto Slab", serif;
+    line-height: 24px;
+    margin-bottom: 20px;
+    
+}
+.storytext .cards{
+    display: flex;
+    justify-content: space-between; 
+    gap: 30px
+}
+
+.storytext .first{
+    width: 150px; 
+    height: 100px;
+    border: 1px solid #eec8b5;
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    flex-direction: row;
+  
+
+    
+      
+}
+.storytext .second{
+    width: 150px; 
+    height: 100px;
+    padding: 20px; 
+    border-radius: 8px; 
+    border: 1px solid #eec8b5;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    flex-direction: row;
+      
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: space-between;
+    align-content: space-between;
+    gap: 30px 50px;
+    justify-content: center;
+
+   
+}
+
+.card {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    width: 17rem;
+    height: 300px;
+   
+  }
+
+.card-body{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+  }
+
+
+.card-img{
+    width: 17rem;
+    height: 300px;
+    object-fit: cover;
+    text-align: center;
+    border-radius: 10px;
+    
+  }
+
+.content{
+    position:absolute;
+    padding-top: 250px;
+    padding-right: 10rem;
+    color: rgb(255, 255, 255);
+    font-size: 1rem; /* Font boyutunu artırabilirsiniz */
+    font-weight:lighter /* Kalın yazı */
+    
+    
+}
+.card-title{
+    display:inline-flex;
+    
+ 
+}
+
+.card-body:hover{
+    bottom: 20px;
+}
+
+
+
+
+
+
